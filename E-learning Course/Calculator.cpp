@@ -1,6 +1,6 @@
 #include <iostream>
 
-// This is my first
+// This is my first programm in C++ !
 
 using namespace std;
 
