@@ -14,7 +14,7 @@ int main()
         cin >> tab[i];
     }
 
-    cout << "Quel nombre souhaitez vous chercher ? ";
+    cout << "Which number do you want to search ? ";
     int input;
     cin >> input;
     int res = 0;
@@ -24,6 +24,6 @@ int main()
             res++;
     }
 
-    cout << "Le nombre '" << input << "' est present " << res << "fois dans le tableau\n";
+    cout << "The number '" << input << "' has " << res << " occurences.\n";
     return 0;
 }
