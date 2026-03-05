@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// Write a program which will perform 4 basic arithmetic operations: +,-,*,/
+// After entering two numbers, the user must select or enter the type of operation to be performed.
+// Try to write this program in two versions: using the if statement, and using the switch-case statement.
+
 int main(){
     int a,b;
 

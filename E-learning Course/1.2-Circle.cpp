@@ -1,6 +1,7 @@
 #include <iostream>
-
 using namespace std;
+
+// Write a program which will load length of a radius given by user. Next, it will calculate and write the area and perimeter of a circle.
 
 int main(){
 

@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// Write a program which will load two numbers entered by user. Next, perform the operations: addition, subtraction, multiplication and division of the given numbers. After carrying out each operation, write its result.
+
 int main(){
     int a,b;
 
