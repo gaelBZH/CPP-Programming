@@ -1,2 +1,2 @@
 # C++ Programming
-My codes learning C++ at PK.
+My codes learning C++ at Politechnika Krakowska.
