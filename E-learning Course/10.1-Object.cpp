@@ -2,6 +2,25 @@
 #include <string>
 using namespace std;
 
+// Define the class Employee storing the following data:
+
+// first name,
+// last name,
+// position,
+// rate of earnings per hour of work.
+// The class should have the constructor with parameters making it possible to create the object
+// completed with the given information.
+// 
+// Define the class Company which will store in the array information about employees
+// (you can assume that the number of employees does not exceed 100).
+// The array is to store the pointers to the objects of the class Employee. Define the methods:
+// 
+// adding a new employee to the company,
+// writing the current balance of employees,
+// writing data of an employee with the given number (if such exists),
+// writing the rate of an employee with the given surname.
+
+
 class Employee
 {
     public:
