@@ -41,3 +41,4 @@
 *.dwo
 
 temp.cpp
+data.bin
