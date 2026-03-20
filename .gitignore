@@ -40,5 +40,5 @@
 # debug information files
 *.dwo
 
-temp.cpp
+temp*
 data.bin
