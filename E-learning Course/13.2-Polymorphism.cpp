@@ -67,7 +67,7 @@ int main()
     cout << "--------------------------\n";
 
 
-    cout << "Enter 2 number for rectangle : ";
+    cout << "Enter 2 numbers for rectangle : ";
     cin >> input1 >> input2;
     q = new Rectangle(input1, input2);
     cout << "Rectangle ";
