@@ -37,7 +37,7 @@ int main()
     cout << "================= 42-Filled Matrix : =================" << endl;
     d.print();
 
-    Matrix e = identity(4);
+    Matrix e = Matrix::identity(4);
     cout << "================= Indendity Matrix 4x4 : =================" << endl;
     e.print();
 

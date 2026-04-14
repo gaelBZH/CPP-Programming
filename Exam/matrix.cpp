@@ -169,9 +169,16 @@ class Matrix
                     data[i][j] = value;
         }
 
-        friend Matrix identity(int size);
+        // Create an identity Matrix of dimension size
+        static Matrix identity(int size)
+        {
+            Matrix result(size, size); // Matrix full of 0
+            for (int i = 0; i < size; i++)
+                result.data[i][i] = 1;
+            return result;
+        }
 
-        
+                
 
 
 
@@ -210,12 +217,5 @@ class Matrix
         }
 };
 
-// Create an identity Matrix of dimension size
-Matrix identity(int size)
-{
-    Matrix result(size, size); // Matrix full of 0
-    for (int i = 0; i < size; i++)
-        result.data[i][i] = 1;
-    return result;
-}
+
 
