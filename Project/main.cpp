@@ -1,6 +1,6 @@
 #include <iostream>
 #include "integration.cpp"
-#include <cmath>
+#include "givenfunction.cpp"
 
 // --- Test Functions and Analytical Solutions ---
 double testFunc1(double x) { return x * x; } // f(x) = x^2
@@ -53,6 +53,20 @@ int main()
     double simp2 = integrate(testFunc2, a, b, precision, true);
     cout << "\tValue = " << simp2 << "\t | Error = " << abs(exact2 - simp2) << endl;
     cout << "==============================================================" << endl << endl << endl;
+
+    // GIVEN FUNCTION (givenfunction.cpp)
+    cout << "=========================== Given Function ===========================" << endl;
+    cout << "Integrating given function f(x) on [" << a << "," << b << "]" << endl;
+
+    cout << "Trapezoidal Rule Result   : ";
+    double trap3 = integrate(f, a, b, precision, false);
+    cout << "\tValue = " << trap3 << endl << endl;
+    
+    cout << "Simpson's Rule Result     : ";
+    double simp3 = integrate(f, a, b, precision, true);
+    cout << "\tValue = " << simp3 << endl;
+    cout << "==============================================================" << endl << endl << endl;
+
 
     return 0;
 }
