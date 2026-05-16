@@ -65,7 +65,7 @@ int main()
     cout << "Simpson's Rule Result     : ";
     double simp3 = integrate(f, a, b, precision, true);
     cout << "\tValue = " << simp3 << endl;
-    cout << "==============================================================" << endl << endl << endl;
+    cout << "======================================================================" << endl << endl << endl;
 
 
     return 0;
